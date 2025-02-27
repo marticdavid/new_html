@@ -1,0 +1,33 @@
+header{
+        background-color: black;
+        width: 97.7vw;
+        height: 10vh;
+    }
+    .navigation{
+        border: 2px solid black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+         font-size: 30px;
+         margin-left: 150px;
+         width: 30%;
+    }
+    .navlinks{
+        width: 70%;
+        margin-right: 150px;
+        font-size: 15px;
+        color: #afacac;
+    }
+    .navlinks ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    .navlinks a{
+        text-decoration: none;
+        color: rgb(197, 193, 193);
+    }
